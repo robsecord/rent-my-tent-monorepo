@@ -1,5 +1,7 @@
 {
-  "name": "myprojectname",
+  "name": "rent-my-tent-mono",
+  "description": "Rent My Tent",
+  "author": "Rent-My-Tent-Team",
   "version": "0.0.1",
   "private": true,
   "workspaces": {
@@ -9,15 +11,11 @@
   },
   "scripts": {
     "android": "yarn workspace mobile android",
-    "compile": "tsc -b --incremental",
-    "ios": "yarn workspace mobile  ios",
+    "ios": "yarn workspace mobile ios",
     "studio": "yarn workspace mobile studio",
     "xcode": "yarn workspace mobile xcode"
   },
   "dependencies": {
     "react-native": "*"
-  },
-  "devDependencies": {
-    "typescript": "3.7.5"
   }
 }
